@@ -1,6 +1,6 @@
 {
 	"name": "react-extend-context",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Simple API for extending rather than replacing React.Context values",
 	"main": "dist/ReactExtendContext.js",
 	"typings": "dist/ReactExtendContext.d.ts",
