@@ -26,7 +26,7 @@ export default function ReactExtendContext<TProps extends object>(props: ReactEx
  * A HOC component that will return a new component with the Context in its closure. That way, the Context will only
  * have to be passed once, and the Component it returns can receive all of the other props
  */
-export function extendContext<TContext extends object>(Ctx: Context<TContext>) {
+export function withExtendedContext<TContext extends object>(Ctx: Context<TContext>) {
 	return function ScopedContext(props: ScopedContextProps & Partial<TContext>) {
 		return <ReactExtendContext Context={Ctx} {...props} />;
 	};

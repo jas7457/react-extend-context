@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { render } from '@testing-library/react';
 
-import ReactExtendContext, { extendContext } from './ReactExtendContext';
+import ReactExtendContext, { withExtendedContext } from './ReactExtendContext';
 
 const CarContext = React.createContext({
 	make: '',
@@ -64,8 +64,8 @@ describe('working with the default ReactExtendContext', () => {
 	});
 });
 
-describe('working with the HOC ExtendContext', () => {
-	const ExtendedContext = extendContext(CarContext);
+describe('working with the HOC withExtendedContext', () => {
+	const ExtendedContext = withExtendedContext(CarContext);
 
 	test('allows everything to be defined in one fell-swoop', () => {
 		const { getByText } = render(
