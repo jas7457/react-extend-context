@@ -5,7 +5,7 @@ module.exports = {
 	entry: './src/ReactExtendContext.tsx',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'index.js',
+		filename: 'ReactExtendContext.js',
 		libraryTarget: 'commonjs2'
 	},
 	module: {
