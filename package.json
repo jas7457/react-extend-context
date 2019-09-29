@@ -1,6 +1,6 @@
 {
 	"name": "react-extend-context",
-	"version": "0.1.3",
+	"version": "1.0.0",
 	"description": "Simple API for extending rather than replacing React.Context values",
 	"main": "dist/ReactExtendContext.js",
 	"typings": "dist/ReactExtendContext.d.ts",
@@ -20,7 +20,8 @@
 	"keywords": [
 		"react",
 		"react.context",
-		"context"
+		"context",
+		"typescript"
 	],
 	"license": "MIT",
 	"repository": {
